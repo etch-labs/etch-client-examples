@@ -1,0 +1,24 @@
+{
+  "seller": {
+    "name": "Sample Studio Example Ltd",
+    "address": "1 Example Street, Sampletown ZZ99 1AA",
+    "email": "hello@sample-studio.example"
+  },
+  "customer": {
+    "name": "Example Client Ltd",
+    "accountNumber": "CUST-00042",
+    "address": {
+      "street": "2 Placeholder Road",
+      "town": "Demoville",
+      "postcode": "ZZ99 2BB"
+    },
+    "contact": {
+      "firstName": "Sam",
+      "preferredChannel": null
+    }
+  },
+  "manager": {
+    "name": "Alex Sample",
+    "email": "alex@sample-studio.example"
+  }
+}

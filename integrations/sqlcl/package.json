@@ -1,0 +1,9 @@
+{
+  "name": "etch-sqlcl",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An etch command for SQLcl: render an ETCH template from a SQL query",
+  "dependencies": {
+    "@get-etch/etch-client": "26.10.12"
+  }
+}

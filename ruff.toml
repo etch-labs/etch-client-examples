@@ -1,0 +1,8 @@
+# Formatting for the Python examples. The preview style keeps a call whose only
+# argument is a dict hugging its braces, `client.process({...})`, as the
+# examples are written.
+line-length = 100
+target-version = "py39"
+
+[format]
+preview = true

@@ -1,0 +1,61 @@
+{
+  "seller": {
+    "name": "Sample Studio Example Ltd",
+    "email": "hello@sample-studio.example"
+  },
+  "customer": {
+    "company": "Example Client Ltd",
+    "contact": "Sam"
+  },
+  "quote": {
+    "number": "Q-2026-0057",
+    "validUntil": "2026-11-03"
+  },
+  "depositRate": 0.3,
+  "packages": [
+    {
+      "title": "Essentials",
+      "summary": "A new logo and the basics to start using it.",
+      "lines": [
+        {
+          "description": "Brand workshop (half day)",
+          "amount": 850
+        },
+        {
+          "description": "Logo design, three concepts and two rounds of changes",
+          "amount": 1200
+        },
+        {
+          "description": "Logo files for print and screen",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "title": "Complete",
+      "summary": "Everything in Essentials, plus the guidelines and templates to keep the brand consistent.",
+      "lines": [
+        {
+          "description": "Brand workshop (half day)",
+          "amount": 850
+        },
+        {
+          "description": "Logo design, three concepts and two rounds of changes",
+          "amount": 1200
+        },
+        {
+          "description": "Logo files for print and screen",
+          "amount": 150
+        },
+        {
+          "description": "Brand guidelines, 12 pages",
+          "amount": 1400
+        },
+        {
+          "description": "Letterhead, invoice and slide templates",
+          "amount": 900
+        }
+      ]
+    }
+  ]
+}

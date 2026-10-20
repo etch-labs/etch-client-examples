@@ -1,0 +1,25 @@
+{
+  "sender": {
+    "name": "Sample Studio Example Ltd",
+    "address": "1 Example Street, Sampletown ZZ99 1AA"
+  },
+  "recipient": {
+    "name": "Example Client Ltd",
+    "attention": "Sam",
+    "street": "2 Placeholder Road",
+    "town": "Demoville",
+    "postcode": "ZZ99 2BB"
+  },
+  "shipment": {
+    "tracking": "SMP-QX-0815001",
+    "trackingUrl": "https://tracking.example/SMP-QX-0815001",
+    "service": "Next day",
+    "weight": "1.4 kg",
+    "order": "ORD-2026-0815"
+  },
+  "items": [
+    { "name": "Studio mug", "qty": 2, "ean": "2000001000113" },
+    { "name": "Dot grid notebook", "qty": 3, "ean": "2000001000281" },
+    { "name": "Canvas tote bag", "qty": 1, "ean": "2000001000359" }
+  ]
+}

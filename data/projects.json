@@ -1,0 +1,47 @@
+{
+  "company": "Sample Studio Example Ltd",
+  "period": "October 2026",
+  "nextReview": "2026-11-02",
+  "projects": [
+    {
+      "name": "Website refresh",
+      "owner": "Alex Sample",
+      "status": "On track",
+      "progress": 0.7,
+      "due": "2026-11-20",
+      "milestones": [
+        { "title": "Content audit", "done": true },
+        { "title": "New page designs", "done": true },
+        { "title": "Build and test", "done": false },
+        { "title": "Launch", "done": false }
+      ],
+      "notes": "Design sign-off came a week early, so the build has started."
+    },
+    {
+      "name": "Customer portal",
+      "owner": "Sam Example",
+      "status": "At risk",
+      "progress": 0.35,
+      "due": "2026-12-11",
+      "milestones": [
+        { "title": "Requirements", "done": true },
+        { "title": "Sign-in and accounts", "done": false },
+        { "title": "Order history", "done": false }
+      ],
+      "notes": "Waiting on access to the client's test system. Raise at the review if it is still blocked."
+    },
+    {
+      "name": "Brand guidelines",
+      "owner": "Jo Placeholder",
+      "status": "On track",
+      "progress": 0.9,
+      "due": "2026-10-30",
+      "milestones": [
+        { "title": "Logo and colour", "done": true },
+        { "title": "Typography", "done": true },
+        { "title": "Final layout", "done": false }
+      ],
+      "notes": "Final layout goes to the client for approval next week."
+    }
+  ]
+}

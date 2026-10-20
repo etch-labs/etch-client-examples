@@ -1,0 +1,18 @@
+{
+  "company": "Sample Studio Example Ltd",
+  "period": "September 2026",
+  "orders": [
+    { "id": "SO-1001", "date": "2026-09-02", "region": "North", "rep": "Alex Sample",    "amount": 1200,   "status": "paid" },
+    { "id": "SO-1002", "date": "2026-09-03", "region": "South", "rep": "Sam Example",    "amount": 450.50, "status": "paid" },
+    { "id": "SO-1003", "date": "2026-09-05", "region": "North", "rep": "Jo Placeholder", "amount": 3000,   "status": "refunded" },
+    { "id": "SO-1004", "date": "2026-09-07", "region": "East",  "rep": "Sam Example",    "amount": 2100,   "status": "paid" },
+    { "id": "SO-1005", "date": "2026-09-09", "region": "West",  "rep": "Chris Demo",     "amount": 875,    "status": "paid" },
+    { "id": "SO-1006", "date": "2026-09-12", "region": "South", "rep": "Jo Placeholder", "amount": 1640,   "status": "paid" },
+    { "id": "SO-1007", "date": "2026-09-15", "region": "East",  "rep": "Alex Sample",    "amount": 320,    "status": "paid" },
+    { "id": "SO-1008", "date": "2026-09-18", "region": "West",  "rep": "Chris Demo",     "amount": 2450,   "status": "paid" },
+    { "id": "SO-1009", "date": "2026-09-21", "region": "North", "rep": "Alex Sample",    "amount": 990,    "status": "paid" },
+    { "id": "SO-1010", "date": "2026-09-24", "region": "South", "rep": "Sam Example",    "amount": 710,    "status": "refunded" },
+    { "id": "SO-1011", "date": "2026-09-27", "region": "East",  "rep": "Jo Placeholder", "amount": 1335,   "status": "paid" },
+    { "id": "SO-1012", "date": "2026-09-29", "region": "West",  "rep": "Chris Demo",     "amount": 560,    "status": "paid" }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "seller": {
+    "name": "Sample Studio Example Ltd",
+    "email": "shop@sample-studio.example"
+  },
+  "validUntil": "2026-12-31",
+  "products": [
+    {
+      "name": "Studio mug",
+      "description": "Stoneware, 350 ml, ochre glaze",
+      "price": 14,
+      "image": "mug.png"
+    },
+    {
+      "name": "Dot grid notebook",
+      "description": "A5, 160 pages, lay-flat binding",
+      "price": 18,
+      "image": "notebook.png"
+    },
+    {
+      "name": "Canvas tote bag",
+      "description": "Heavy cotton, 38 x 42 cm",
+      "price": 22,
+      "image": "tote-bag.png"
+    }
+  ]
+}

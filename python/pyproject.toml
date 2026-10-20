@@ -1,0 +1,19 @@
+[project]
+name = "etch-examples"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "etch-client==26.10.13",
+    "pydantic>=2",
+]
+
+[[tool.uv.index]]
+name = "etch"
+url = "https://packages.get-etch.app/pypi/simple/"
+explicit = true
+
+[tool.uv.sources]
+etch-client = { index = "etch" }
+
+[tool.uv]
+package = false

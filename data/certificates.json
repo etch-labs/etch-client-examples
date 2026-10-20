@@ -1,0 +1,15 @@
+{
+  "course": {
+    "title": "Designing Document Templates",
+    "date": "2026-09-24",
+    "hours": 6,
+    "trainer": "Alex Sample",
+    "provider": "Sample Studio Example Ltd"
+  },
+  "attendees": [
+    { "name": "Sam Example",    "organisation": "Example Client Ltd",          "score": 94, "certificate": "CERT-2026-0311" },
+    { "name": "Jo Placeholder", "organisation": "Placeholder Partners Ltd",    "score": 81, "certificate": "CERT-2026-0312" },
+    { "name": "Chris Demo",     "organisation": "Demo Industries Example Ltd", "score": 88, "certificate": "CERT-2026-0313" },
+    { "name": "Alex Test",      "organisation": "Example Client Ltd",          "score": 97, "certificate": "CERT-2026-0314" }
+  ]
+}

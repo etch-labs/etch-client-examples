@@ -1,0 +1,29 @@
+output/
+
+# Python
+__pycache__/
+.venv/
+
+# JavaScript
+node_modules/
+
+.DS_Store
+.idea/
+.vscode/
+
+# Written by python/docs and javascript/docs when run from the repository root
+/invoice.pdf
+/letter.pdf
+/document.docx
+/document.pdf
+/converted.pdf
+/fixed.docx
+/invoices/
+/Example Ltd.md
+/Sample Co.md
+/Demo Trading.md
+/invoice-out.md
+/invoice.docx
+/invoice-2026-001.pdf
+/invoice-converted.pdf
+/invoice-fixed.docx

@@ -1,0 +1,35 @@
+{
+  "number": "DEMO-0001",
+  "issued": "2026-10-01",
+  "due": "2026-10-31",
+  "seller": {
+    "name": "Mei Example Design",
+    "address": "12 Sample Lane, Exampleton",
+    "email": "mei@example.com"
+  },
+  "customer": {
+    "name": "Kwame Placeholder",
+    "address": "123 Placeholder Road, Demotown"
+  },
+  "items": [
+    {
+      "description": "Brand workshop (half day)",
+      "quantity": 1,
+      "unitPrice": 850
+    },
+    {
+      "description": "Logo design, three concepts",
+      "quantity": 1,
+      "unitPrice": 1200
+    },
+    {
+      "description": "Business card artwork",
+      "quantity": 2,
+      "unitPrice": 95
+    }
+  ],
+  "subtotal": 2240,
+  "taxRate": 8,
+  "tax": 179.2,
+  "total": 2419.2
+}

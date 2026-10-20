@@ -1,0 +1,45 @@
+{
+  "seller": {
+    "name": "Sample Studio Example Ltd",
+    "address": "1 Example Street, Sampletown ZZ99 1AA",
+    "email": "accounts@sample-studio.example"
+  },
+  "customers": [
+    {
+      "accountNumber": "CUST-00042",
+      "company": "Example Client Ltd",
+      "contact": { "firstName": "Sam" },
+      "plan": "standard",
+      "price": 29,
+      "renewalDate": "2026-10-13",
+      "daysUntilRenewal": 9,
+      "autoRenew": true,
+      "usagePercent": 86,
+      "promoCode": "LOYAL-15"
+    },
+    {
+      "accountNumber": "CUST-00107",
+      "company": "Placeholder Partners Ltd",
+      "contact": { "firstName": "" },
+      "plan": "free",
+      "price": 0,
+      "renewalDate": "2026-11-20",
+      "daysUntilRenewal": 47,
+      "autoRenew": true,
+      "usagePercent": 40,
+      "promoCode": ""
+    },
+    {
+      "accountNumber": "CUST-00311",
+      "company": "Demo Industries Example Ltd",
+      "contact": { "firstName": "Jo" },
+      "plan": "professional",
+      "price": 99,
+      "renewalDate": "2026-12-01",
+      "daysUntilRenewal": 58,
+      "autoRenew": false,
+      "usagePercent": 35,
+      "promoCode": "SPRING"
+    }
+  ]
+}

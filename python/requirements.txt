@@ -1,0 +1,4 @@
+--index-url https://__token__:${ETCH_TOKEN}@packages.get-etch.app/pypi/simple/
+--extra-index-url https://pypi.org/simple
+etch-client==26.10.13
+pydantic>=2

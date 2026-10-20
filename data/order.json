@@ -1,0 +1,42 @@
+{
+  "order": {
+    "number": "ORD-2026-0815",
+    "placed": "2026-10-01"
+  },
+  "customer": {
+    "name": "Example Client Ltd",
+    "address": "2 Placeholder Road, Demoville ZZ99 2BB"
+  },
+  "summary": {
+    "Items": 7,
+    "Parcels": 3,
+    "Weight": "4.2 kg"
+  },
+  "shipments": [
+    {
+      "code": "SH1",
+      "carrier": "Sample Couriers",
+      "arrives": "2026-10-06",
+      "items": [
+        { "name": "Studio mug", "qty": 2, "rating": 5, "tags": ["stoneware", "350 ml"] },
+        { "name": "Dot grid notebook", "qty": 3, "rating": 4, "tags": ["A5", "160 pages", "lay-flat"] }
+      ]
+    },
+    {
+      "code": "SH2",
+      "carrier": "Example Freight",
+      "arrives": "2026-10-08",
+      "items": [
+        { "name": "Canvas tote bag", "qty": 1, "rating": 4, "tags": ["cotton"] }
+      ]
+    },
+    {
+      "code": "SH3",
+      "carrier": "Sample Couriers",
+      "arrives": "2026-10-09",
+      "items": [
+        { "name": "Desk planner", "qty": 1, "rating": 3, "tags": ["weekly", "undated"] }
+      ]
+    }
+  ]
+}

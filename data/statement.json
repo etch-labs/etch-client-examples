@@ -1,0 +1,60 @@
+{
+  "bank": {
+    "name": "Sample Bank Example plc",
+    "address": "10 Example Square, Sampletown ZZ99 3CC"
+  },
+  "customer": {
+    "name": "Example Client Ltd"
+  },
+  "account": {
+    "number": "4521",
+    "sortCode": "00-00-00",
+    "interestRate": 0.015
+  },
+  "period": {
+    "from": "2026-09-01",
+    "to": "2026-09-30"
+  },
+  "generatedAt": "2026-10-01T07:30:00Z",
+  "openingBalance": 3250.00,
+  "transactions": [
+    {
+      "date": "2026-09-02",
+      "description": "  CARD PAYMENT - EXAMPLE CAFE SAMPLETOWN  ",
+      "paidOut": -12.40,
+      "paidIn": null,
+      "balance": 3237.60
+    },
+    {
+      "date": "2026-09-05",
+      "description": "DIRECT DEBIT - SAMPLE ENERGY EXAMPLE LTD",
+      "paidOut": -86.15,
+      "paidIn": null,
+      "balance": 3151.45
+    },
+    {
+      "date": "2026-09-12",
+      "description": "BANK TRANSFER FROM SAMPLE STUDIO EXAMPLE LTD",
+      "paidOut": null,
+      "paidIn": 2688.00,
+      "balance": 5839.45
+    },
+    {
+      "date": "2026-09-15",
+      "description": "STANDING ORDER - STUDIO RENT",
+      "paidOut": -950.00,
+      "paidIn": null,
+      "balance": 4889.45
+    },
+    {
+      "date": "2026-09-30",
+      "description": "INTEREST PAID",
+      "paidOut": null,
+      "paidIn": 4.12,
+      "balance": 4893.57
+    }
+  ],
+  "totalIn": 2692.12,
+  "totalOut": -1048.55,
+  "closingBalance": 4893.57
+}

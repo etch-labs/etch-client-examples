@@ -1,0 +1,12 @@
+{
+  "name": "etch-examples",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@get-etch/etch-client": "26.10.12"
+  }
+}
