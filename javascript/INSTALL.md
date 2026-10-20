@@ -38,6 +38,24 @@ npm install
 On Windows, if PowerShell says running scripts is disabled, allow them once with
 `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`, or type `npm.cmd install` instead.
 
+### With pnpm or Yarn
+
+pnpm and Yarn 1 read the same `.npmrc`: run `pnpm install` or `yarn install` instead of `npm install`.
+
+Yarn 2 and later don't read `.npmrc`. Create a `.yarnrc.yml` in this folder with the same two
+settings. It holds no token:
+
+```yaml
+npmScopes:
+  get-etch:
+    npmRegistryServer: "https://packages.get-etch.app/npm/"
+    npmAuthToken: "${ETCH_TOKEN:-}"
+```
+
+Then run `yarn install`, and run each example with `yarn node`, for example
+`yarn node 01-quick-start/index.mjs`. The `:-` lets Yarn run its other commands when `ETCH_TOKEN`
+isn't set.
+
 ## 3. Set your API key
 
 macOS and Linux:
