@@ -75,15 +75,15 @@ wheels = [
 
 [[package]]
 name = "etch-client"
-version = "26.10.13"
+version = "26.10.14"
 source = { registry = "https://packages.get-etch.app/pypi/simple/" }
 dependencies = [
     { name = "httpx" },
     { name = "typing-extensions", marker = "python_full_version < '3.11'" },
 ]
-sdist = { url = "https://packages.get-etch.app/pypi/packages/etch_client-26.10.13.tar.gz", hash = "sha256:b5e136c5fbdac18ec06fc327ac15355a26293dc9b7b93b2d0173290d4c3b7df8" }
+sdist = { url = "https://packages.get-etch.app/pypi/packages/etch_client-26.10.14.tar.gz", hash = "sha256:ee02f5346e20006a407e1ff0ea659fab364f644c42e8a9fc351845c479d33b4e" }
 wheels = [
-    { url = "https://packages.get-etch.app/pypi/packages/etch_client-26.10.13-py3-none-any.whl", hash = "sha256:01b2698b244e06d6c50bc8c5413276571a54fcf3b3e442f8c6e1dfdf74d89d98" },
+    { url = "https://packages.get-etch.app/pypi/packages/etch_client-26.10.14-py3-none-any.whl", hash = "sha256:25b5e553a0afc6eace0e1281ec861deb1342d557c8c5cdff15a779fd07ea2619" },
 ]
 
 [[package]]
@@ -98,7 +98,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "etch-client", specifier = "==26.10.13", index = "https://packages.get-etch.app/pypi/simple/" },
+    { name = "etch-client", specifier = "==26.10.14", index = "https://packages.get-etch.app/pypi/simple/" },
     { name = "pydantic", specifier = ">=2" },
 ]
 

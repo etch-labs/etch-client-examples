@@ -1,6 +1,6 @@
 # Python examples
 
-Examples for the ETCH Python client, `etch-client` 26.10.13. Each numbered folder holds one example
+Examples for the ETCH Python client, `etch-client` 26.10.14. Each numbered folder holds one example
 and a README that explains it. To learn more about the client, see Python under Client libraries in
 the [ETCH documentation](https://get-etch.app/docs).
 

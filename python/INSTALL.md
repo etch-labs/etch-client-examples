@@ -1,6 +1,6 @@
 # Installing the Python examples
 
-The examples use `etch-client` 26.10.13, which is published on the ETCH package registry rather than
+The examples use `etch-client` 26.10.14, which is published on the ETCH package registry rather than
 PyPI. You need Python 3.9 or later and two things from your ETCH dashboard:
 
 - your package token, from the Integrations page, so your package manager can download `etch-client`
