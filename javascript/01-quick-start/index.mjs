@@ -7,24 +7,15 @@ import { ETCHClient } from '@get-etch/etch-client';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, '..', '..');
-const template = path.join(root, 'templates', 'invoice.docx');
-const dataFile = path.join(root, 'data', 'invoice.json');
-const outputDir = path.join(here, 'output');
 
-const apiKey = process.env.ETCH_API_KEY;
-if (!apiKey) {
-  console.error('Set ETCH_API_KEY to your ETCH API key.');
-  process.exit(1);
-}
+const data = JSON.parse(await readFile(path.join(root, 'data', 'invoice.json'), 'utf8'));
 
-const client = new ETCHClient({
-  baseURL: process.env.ETCH_BASE_URL ?? 'https://api.get-etch.app',
-  apiKey,
+const client = new ETCHClient(); // reads ETCH_API_KEY, and ETCH_BASE_URL if you set it
+const result = await client.process({
+  template: path.join(root, 'templates', 'invoice.docx'),
+  data,
 });
 
-const data = JSON.parse(await readFile(dataFile, 'utf8'));
-const result = await client.process({ template, data });
-
-const out = path.join(outputDir, `invoice-${data.number}.docx`);
+const out = path.join(here, 'output', `invoice-${data.number}.docx`);
 await result.saveToFile(out);
 console.log(`Wrote ${path.relative(root, out)}`);

@@ -1,6 +1,6 @@
 # Installing the JavaScript examples
 
-The examples use `@get-etch/etch-client` 26.10.12, which is published on the ETCH package registry
+The examples use `@get-etch/etch-client` 26.10.14, which is published on the ETCH package registry
 rather than npmjs.com. You need Node.js 22 or later and two things from your ETCH dashboard:
 
 - your package token, from the Integrations page, so npm can download the client

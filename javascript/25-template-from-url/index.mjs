@@ -15,22 +15,13 @@ const root = path.resolve(here, '..', '..');
 const dataFile = path.join(root, 'data', 'invoice.json');
 const outputDir = path.join(here, 'output');
 
-const apiKey = process.env.ETCH_API_KEY;
-if (!apiKey) {
-  console.error('Set ETCH_API_KEY to your ETCH API key.');
-  process.exit(1);
-}
-
 const url = process.argv[2] ?? process.env.INVOICE_TEMPLATE_URL;
 if (!url) {
   console.error('Pass the URL of the template as an argument or in INVOICE_TEMPLATE_URL.');
   process.exit(1);
 }
 
-const client = new ETCHClient({
-  baseURL: process.env.ETCH_BASE_URL ?? 'https://api.get-etch.app',
-  apiKey,
-});
+const client = new ETCHClient();
 
 const data = JSON.parse(await readFile(dataFile, 'utf8'));
 const result = await client.process({ template: url, data });

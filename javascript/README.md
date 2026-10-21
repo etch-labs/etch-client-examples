@@ -1,6 +1,6 @@
 # JavaScript examples
 
-Examples for the ETCH JavaScript client, `@get-etch/etch-client` 26.10.12. Each numbered folder holds
+Examples for the ETCH JavaScript client, `@get-etch/etch-client` 26.10.14. Each numbered folder holds
 one example and a README that explains it. To learn more about the client, see JavaScript under
 Client libraries in the [ETCH documentation](https://get-etch.app/docs).
 

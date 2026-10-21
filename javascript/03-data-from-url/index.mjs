@@ -26,22 +26,13 @@ async function fetchJson(url, token) {
   return response.json();
 }
 
-const apiKey = process.env.ETCH_API_KEY;
-if (!apiKey) {
-  console.error('Set ETCH_API_KEY to your ETCH API key.');
-  process.exit(1);
-}
-
 const url = process.argv[2] ?? process.env.INVOICE_DATA_URL;
 if (!url) {
   console.error('Pass the URL of the invoice JSON as an argument or in INVOICE_DATA_URL.');
   process.exit(1);
 }
 
-const client = new ETCHClient({
-  baseURL: process.env.ETCH_BASE_URL ?? 'https://api.get-etch.app',
-  apiKey,
-});
+const client = new ETCHClient();
 
 const data = await fetchJson(url, process.env.INVOICE_DATA_TOKEN);
 const result = await client.process({ template, data });

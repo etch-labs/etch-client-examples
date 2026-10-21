@@ -7,6 +7,6 @@
     "node": ">=22"
   },
   "dependencies": {
-    "@get-etch/etch-client": "26.10.12"
+    "@get-etch/etch-client": "26.10.14"
   }
 }
