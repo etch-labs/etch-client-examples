@@ -11,14 +11,14 @@ client = ETCHClient({
 
 # An earlier run may have left the folder behind; it must be empty to delete it.
 for old in client.list_folders():
-    if old.path == "invoices":
-        leftovers, _ = client.list_templates({"folder": "invoices"})
+    if old.path == "docs-example-invoices":
+        leftovers, _ = client.list_templates({"folder": "docs-example-invoices"})
         for t in leftovers:
             client.delete_template(t.id)
         client.delete_folder(old.id)
 
 # docs:start upload
-folder = client.create_folder({"name": "invoices"})
+folder = client.create_folder({"name": "docs-example-invoices"})
 
 uploaded = client.upload_template({
     "file": "templates/invoice.md",
@@ -28,7 +28,7 @@ uploaded = client.upload_template({
 })
 
 result = client.process({
-    "template": "invoices/invoice.md",
+    "template": "docs-example-invoices/invoice.md",
     "template_source": TemplateSource.SERVER,
     "data": {"name": "Example Ltd", "date": "2026-04-15", "total": "99.99"},
 })
@@ -36,7 +36,7 @@ result = client.process({
 
 # docs:start manage
 # list_templates returns one page of templates and the total count.
-templates, total = client.list_templates({"folder": "invoices"})
+templates, total = client.list_templates({"folder": "docs-example-invoices"})
 for t in templates:
     print(t.name, t.id)
 

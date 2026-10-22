@@ -10,14 +10,14 @@ const client = new ETCHClient({
 
 // An earlier run may have left the folder behind; it must be empty to delete it.
 for (const old of await client.listFolders()) {
-  if (old.path !== 'invoices') continue;
+  if (old.path !== 'docs-example-invoices') continue;
   const { templates: leftovers } = await client.listTemplates({ folder: old.path });
   for (const t of leftovers) await client.deleteTemplate(t.id);
   await client.deleteFolder(old.id);
 }
 
 // docs:start manage
-const folder = await client.createFolder({ name: 'invoices' });
+const folder = await client.createFolder({ name: 'docs-example-invoices' });
 
 const uploaded = await client.uploadTemplate({
   file: 'templates/letter.md',

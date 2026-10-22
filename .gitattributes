@@ -1,0 +1,4 @@
+# The Gradle wrapper scripts keep the line endings their shells need, whatever
+# core.autocrlf is set to on the machine that clones the repository.
+gradlew text eol=lf
+*.bat text eol=crlf

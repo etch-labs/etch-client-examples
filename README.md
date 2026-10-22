@@ -14,8 +14,8 @@
 returns finished documents, in the template's own format or as PDF.
 
 These examples are small, runnable programs that use the ETCH client libraries. Each one exists in
-Python and in JavaScript, in a folder with the same name, and uses the same template and data, so
-you can compare the two side by side.
+Python, JavaScript, Java and Kotlin, in a folder with the same name, and uses the same template and
+data, so you can compare the languages side by side. Kotlin uses the Java client.
 
 To run them, you need an ETCH account. The free plan needs no card.
 [Create a free account](https://get-etch.app/signup).
@@ -34,12 +34,13 @@ The examples call `https://api.get-etch.app`. To use another ETCH server, set `E
 
 ## Languages
 
-Start with [Python](python/) or [JavaScript](javascript/). Each folder has a README that lists its
-examples and an `INSTALL.md` that sets up the client on macOS, Linux and Windows.
+Start with [Python](python/), [JavaScript](javascript/), [Java](java/) or [Kotlin](kotlin/). Each
+folder has a README that lists its examples and an `INSTALL.md` that sets up the client on macOS,
+Linux and Windows.
 
 ## Examples
 
-Both languages have the same numbered folders, one per example, each with its own README.
+Every language has the same numbered folders, one per example, each with its own README.
 
 | Folder | What it shows |
 |---|---|
@@ -88,6 +89,8 @@ Each has its own README.
 ```text
 python/         Python examples
 javascript/     JavaScript examples
+java/           Java examples
+kotlin/         Kotlin examples
 integrations/   examples that run inside other tools
 templates/      Word, Excel, PowerPoint and Markdown templates
 data/           sample JSON data
@@ -95,7 +98,7 @@ images/         images the examples use
 ```
 
 The `docs` folder in each language holds the code shown on that language's page of the ETCH
-documentation. To learn more about the template syntax and the client libraries, see the
+documentation; Java and Kotlin share a page. To learn more about the template syntax and the client libraries, see the
 [ETCH documentation](https://get-etch.app/docs).
 
 ## Licence and contributing

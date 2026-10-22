@@ -23,8 +23,8 @@ their names as written. A JavaScript `Date` has no date-only form, so the client
 timestamp; the template formats it as a date.
 
 The example in every other language builds the same invoice from its own types and produces the same
-document. The data carries every digit of the numbers; the document shows them as the template prints
-them.
+document, except for the price written as `1E+3`, which shows as `1000` there. The data carries
+every digit of the numbers; the document shows them as the template prints them.
 
 The code is in [index.mjs](index.mjs).
 

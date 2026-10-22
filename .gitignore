@@ -7,11 +7,16 @@ __pycache__/
 # JavaScript
 node_modules/
 
+# Java and Kotlin
+.gradle/
+.kotlin/
+build/
+
 .DS_Store
 .idea/
 .vscode/
 
-# Written by python/docs and javascript/docs when run from the repository root
+# Written by the docs folders of each language when run from the repository root
 /invoice.pdf
 /letter.pdf
 /document.docx

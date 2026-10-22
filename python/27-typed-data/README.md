@@ -16,9 +16,10 @@ pydantic models, and the client turns them into JSON itself, like this:
 Each line in the list follows the same rules. The client sends field names as written; only the
 alias renames one. A dataclass works the same way, except that it has no way to rename a field.
 
-The example in every other language builds the same invoice from its own types and produces the same
-document. The data carries every digit of the numbers; the document shows them as the template prints
-them.
+The example in every other language builds the same invoice from its own types. Java's document is
+the same as this one. JavaScript has no decimal type, so its price written as `1E+3` shows as `1E+3`
+there, not `1000`. The data carries every digit of the numbers; the document shows them as the
+template prints them.
 
 `uv run` installs pydantic from `pyproject.toml`, and `pip install -r requirements.txt` installs it
 too.
